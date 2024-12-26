@@ -1,0 +1,12 @@
+/* Tarefa 1 */
+/* Estilo para colunas ímpares */
+.col:nth-child(odd) > div {
+    background-color: lightblue;
+    color: white;
+}
+
+/* Estilo para colunas pares */
+.col:nth-child(even) > div {
+    background-color: lightgreen;
+    color: black;
+}
